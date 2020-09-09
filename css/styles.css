@@ -362,7 +362,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "open""Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "open-sans""Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
 }
@@ -6098,7 +6098,10 @@ a.close.disabled {
 
 /* this is where i can change the color of the first page i will keep this a version of yellow for a while */
 .bg-primary {
-  background-color: yellow !important;
+  background-color: lightyellow !important;
+
+  /* i love F5C414 but it is the same as the current text, and also love  */
+  /* chartreuse but someone will pop a blood vessel in their eye is they see that, lightseagreen and lightgreen are also nice */
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9848,7 +9851,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-light {
-  color: #f8f9fa !important;
+  color: #e65705 !important;
 }
 
 a.text-light:hover, a.text-light:focus {
