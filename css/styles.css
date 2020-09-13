@@ -6098,7 +6098,7 @@ a.close.disabled {
 
 /* this is where i can change the color of the first page i will keep this a version of yellow for a while */
 .bg-primary {
-  background-color: lightyellow !important;
+  background-color: rgba(225, 241, 0, 0.61)!important;
 
   /* i love F5C414 but it is the same as the current text, and also love  */
   /* chartreuse but someone will pop a blood vessel in their eye is they see that, lightseagreen and lightgreen are also nice */
