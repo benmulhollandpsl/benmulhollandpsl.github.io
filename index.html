@@ -3,17 +3,25 @@
     <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WNP013KZR"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-    gtag('config', 'G-5WNP013KZR');
-    </script>
+            gtag('config', 'G-5WNP013KZR');
+            </script>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
+            <!-- <style>
+                body { width: 100%; height: 100%; margin: 0; position: fixed; background: rgba(252.5,0,0, 1) }
+                canvas { width: 100%; height: 100%; outline: none; }
+                #container { width: 100%; height: 100%; position: relative; }
+            
+                
+            </style> -->
+        
         <title>Ben Mulholland</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="./assets/img/cyanavatar.svg" />
@@ -49,6 +57,10 @@
 
                 <h1 class="masthead-heading mb-0">Ben Mulholland</h1>
                 <!-- Icon Divider-->
+
+                    <!-- canvas3d -->
+              
+
 
                 <!-- divider-dark or divider-light -->
                 <div class="divider-custom divider-dark">
@@ -187,7 +199,11 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-4">
                         <div class="d-flex flex-column align-items-center">
-                            
+                              <div id='container'>
+                    
+                    <canvas id="canvas3d"></canvas>
+                    <!--check out another fun 3d thing i made a href="https://benmulhollandpsl.github.io/groundhog2021/" -->
+                </div>
                             <div class="text-muted">Email</div>
                                 <a class="lead font-weight-bold" href="mailto:ben.mulholland.dev@gmail.com">
                                     <i class="far fa-envelope" style="font-size:36; color:blueviolet"></i>
@@ -572,6 +588,13 @@
                 </div>
             </div>
         </div>
+        <!-- spline3d -->
+        <script>
+            // Global namespace (backwards-compatibility)
+            var SPE = {};
+        </script>
+       
+       
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
@@ -580,7 +603,15 @@
         <!-- Contact form JS-->
         <script src="assets/mail/jqBootstrapValidation.js"></script>
         <script src="assets/mail/contact_me.js"></script>
+
         <!-- Core theme JS-->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.spline.design/lib/anime.min.js"></script>
+        <script src="https://cdn.spline.design/lib/spline.runtime.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/assets.js"></script>
+        <script src="js/scene.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
