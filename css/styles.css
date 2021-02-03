@@ -6107,7 +6107,8 @@ a.close.disabled {
 
 /* this is where i can change the color of the first page i will keep this a version of yellow for a while */
 .bg-primary {
-  background-color: rgba(225, 241, 0, 0.61)!important;
+  background-color: #FFDDFF!important;
+  /* rgba(225, 241, 0, 0.61) */
 
   /* i love F5C414 but it is the same as the current text, and also love  */
   /* chartreuse but someone will pop a blood vessel in their eye is they see that, lightseagreen and lightgreen are also nice */
@@ -6116,11 +6117,11 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #fc1dc4 !important;
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #7700ff !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -6130,7 +6131,7 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #28a745 !important;
+  background-color: #23aa42 !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
@@ -6150,13 +6151,13 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #ffc107 !important;
+  background-color: #f7ab09 !important;
 }
 
 a.bg-warning:hover, a.bg-warning:focus,
 button.bg-warning:hover,
 button.bg-warning:focus {
-  background-color: #d39e00 !important;
+  background-color: #c99702 !important;
 }
 
 .bg-danger {
