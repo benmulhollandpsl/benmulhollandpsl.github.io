@@ -4199,6 +4199,13 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 }
+
+canvas {
+    border: 5px double rebeccapurple;
+    border-radius: 12px;
+  
+}
+
 @media (min-width: 1200px) {
   .navbar-expand-xl {
     flex-flow: row nowrap;
