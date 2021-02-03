@@ -6121,7 +6121,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #7700ff !important;
+  background-color: #005f9f !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9845,7 +9845,7 @@ a.text-info:hover, a.text-info:focus {
 }
 
 .text-warning {
-  color: #ffc107 !important;
+  color: #FF2347 !important;
 }
 
 a.text-warning:hover, a.text-warning:focus {
